@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LazarusSec | Network Security</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Three.js Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <!-- Module for Motion One -->
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    
+    <!-- Background Decor -->
+    <div class="bg-shape shape-1"></div>
+    <div class="bg-shape shape-2"></div>
+
+    <nav class="navbar glass">
+        <div class="logo">LazarusSec<span class="dot">.</span></div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#expertise">Expertise</a>
+            <a href="#about">About</a>
+        </div>
+    </nav>
+
+    <main id="home" class="hero section">
+        <div class="hero-content">
+            <div class="badge motion-in">B.Tech • CCNA • CCNP • Palo Alto • Fortinet</div>
+            <h1 id="hero-title">
+                <span class="word-split">The</span>
+                <span class="word-split">Future</span>
+                <span class="word-split">of</span><br>
+                <span class="word-split">Enterprise</span>
+                <span class="word-split">Data.</span>
+            </h1>
+            <p class="motion-in">I design and harden massive network infrastructure. Delivering zero-trust architecture, high availability, and 24/7 network security.</p>
+            <div class="hero-actions motion-in">
+                <a href="#expertise" class="btn hover-fill fill-peach">See Specialties</a>
+                <a href="#" class="btn btn-outline hover-fill fill-slate">My Resume</a>
+            </div>
+        </div>
+        
+        <div class="hero-visual canvas-reveal">
+            <div class="css-shield-container">
+                <div class="shield-core"></div>
+                <div class="orbit orbit-1"></div>
+                <div class="orbit orbit-2"></div>
+                <div class="orbit orbit-3"></div>
+            </div>
+        </div>
+    </main>
+
+    <section id="expertise" class="section">
+        <div class="section-header motion-scroll">
+            <h2 class="section-title">Core Expertise</h2>
+            <p class="section-desc">Specialized capabilities powering modern tech companies.</p>
+        </div>
+        
+        <div class="grid-cards">
+            <div class="card feature-card bg-coral motion-scroll">
+                <div class="icon">🌐</div>
+                <div class="card-text">
+                    <h3>Routing & Switching</h3>
+                    <p>Architecting robust topologies utilizing BGP, OSPF, and advanced VLAN segmentation for maximum efficiency.</p>
+                </div>
+            </div>
+            <div class="card feature-card bg-peach motion-scroll">
+                <div class="icon">🛡️</div>
+                <div class="card-text">
+                    <h3>Threat Shielding</h3>
+                    <p>Deploying Next-Gen Firewalls (Cisco ASA, Palo Alto, Fortinet), IDS/IPS integration, and enforcing dynamic Zero Trust security policies.</p>
+                </div>
+            </div>
+            <div class="card feature-card bg-green motion-scroll">
+                <div class="icon">📈</div>
+                <div class="card-text">
+                    <h3>Packet Analytics</h3>
+                    <p>Deep-dive traffic inspection using advanced telemetry to trace anomalies, sniff bottlenecks, and optimize flows.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="card about-card bg-slate motion-scroll">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>I am a highly motivated <strong>B.Tech graduate</strong> actively specializing in comprehensive network security.</p>
+                <p>Currently pursuing my <strong>CCNA and CCNP</strong> certifications, my passion lies in analyzing packet data, securing infrastructure against unauthorized access, and understanding the core mechanics of how the world stays connected safely.</p>
+                <div class="skill-tags">
+                    <span>Cisco IOS</span>
+                    <span>Palo Alto</span>
+                    <span>Fortinet</span>
+                    <span>Wireshark</span>
+                    <span>Nmap</span>
+                    <span>Firepower</span>
+                    <span>Data Center</span>
+                    <span>Linux</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="glass">
+        <div class="footer-content">
+            <h2>Ready to secure your backbone?</h2>
+            <a href="mailto:contact@lazarussec.com" class="btn hover-fill fill-peach mt-4">Contact Me</a>
+        </div>
+        <p class="copyright">&copy; 2026 LazarusSec. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
